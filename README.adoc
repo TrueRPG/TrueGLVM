@@ -1,0 +1,36 @@
+= TrueGLVM
+
+If you're looking for a _decent_ RPG game, I'm ready to congratulate you, because it's here!
+
+This is a fork of the RPG game, originally developed by https://www.twitch.tv/yuriorkis_scream[Yuriorkis_Scream].
+The founder abandoned this project, so the community decided to continue development on their own.
+We'll get the job done, no matter what!
+
+Don't stand aside, help the project! Pull requests are very welcome!
+You can discuss the project https://github.com/TrueRPG/TrueGLVM/discussions[here].
+
+== Quick start guide
+
+Currently, the only way to get _TrueGLVM_ running is to build it from the source.
+We don't make releases yet, so the way to go is to use the _master_ branch. Be aware, that it contains bugs.
+
+=== Building from the source
+
+The following command downloads the source code using git.
+
+[,console]
+----
+$ git clone --recurse-submodules https://github.com/TrueRPG/TrueGLVM
+----
+
+// TODO: build instructions
+// by the way, what do you guys think about asciidoc? :)
+
+== TODO
+
+* [ ] Complete this README.
+* [ ] Await & rebase on Scream's repository.
+* [ ] Replace Makefiles with https://mesonbuild.com[Meson], if the guys agree.
+* [ ] Remove ScreamSTL.
+* [ ] Remove OpenGL support.
+* [ ] Split Vulkan.cpp into multiple files.
