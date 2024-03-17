@@ -49,9 +49,9 @@ struct SpotLight {
 	float quadratic;
 };
 
-#define DIRECTIONAL_LIGHTS_NUMBER 32
-#define POINT_LIGHTS_NUMBER       64
-#define SPOT_LIGHTS_NUMBER        32
+#define DIRECTIONAL_LIGHTS_NUMBER 2
+#define POINT_LIGHTS_NUMBER       2
+#define SPOT_LIGHTS_NUMBER        2
 
 uniform float            farPlane;
 uniform vec3             lightPos;
